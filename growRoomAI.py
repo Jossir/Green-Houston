@@ -289,7 +289,7 @@ def startUp():
 	#extractorOff()
 	#t = 2 + y
 
- 	#sendemail(from_addr = 'stankydankhomegrown@gmail.com', to_addr_list = 'josesirba7@gmail.com', subject = 'GrowLog', message = 'test' , login = 'stankydankhomegrown@gmail.com', password = 'Logmein0919')
+ 	#sendemail(from_addr = 'JoseSirbagrown@gmail.com', to_addr_list = 'josesirba7@gmail.com', subject = 'GrowLog', message = 'test' , login = 'stankydankhomegrown@gmail.com', password = 'removed password*')
 try:
 	counter = 0
 	startUp()
@@ -310,7 +310,7 @@ try:
 			print('Lights on - enable Co2 functionality')
 			#extractorOff()
 			 
- 			sendemail(from_addr = 'stankydankhomegrown@gmail.com', to_addr_list = 'josesirba7@gmail.com', subject = 'GrowLog - lights on', message = 'to do' , login = 'stankydankhomegrown@gmail.com', password = 'Logmein0919')
+ 			sendemail(from_addr = 'JoseSirbakhomegrown@gmail.com', to_addr_list = 'josesirba7@gmail.com', subject = 'GrowLog - lights on', message = 'to do' , login = 'stankydankhomegrown@gmail.com', password = 'removed password*')
 			print('Daily data mail sent')
 
 			#co2On()
@@ -319,7 +319,7 @@ try:
 			#send daily email
 			counter = 0
 
- 			sendemail(from_addr = 'stankydankhomegrown@gmail.com', to_addr_list = 'josesirba7@gmail.com', subject = 'GrowLog - lights off', message = 'to do' , login = 'stankydankhomegrown@gmail.com', password = 'Logmein0919')
+ 			sendemail(from_addr = 'JoseSirbahomegrown@gmail.com', to_addr_list = 'josesirba7@gmail.com', subject = 'GrowLog - lights off', message = 'to do' , login = 'stankydankhomegrown@gmail.com', password = 'removed password*')
 			print('Daily data mail sent')
 			useCo2 = False
 			
