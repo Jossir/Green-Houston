@@ -1,3 +1,8 @@
+#This script is executed on a Raspberry Pi which is connected to a 8-way power relay and multiple sensors (temperature, humidity, co2, UV and video feedback (still in development). 
+#The power relay is to toggle equipment on/off i.e. Dehumidifier, Co2 regulator, exhaust fan, inside Fans, water pump and air-conditioner. 
+#In short the script is an automation bot which efficently maintains a controlled environment.
+
+
 import RPi.GPIO as GPIO
 import time
 import datetime
